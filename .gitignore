@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 忽略 node_modules 目錄下檔案
+/node_modules/*

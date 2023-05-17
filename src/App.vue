@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <FormComp :msg="name" v-loading="loading"/>
+  <el-button>好玩的</el-button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormComp from './components/FormComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FormComp
+  },
+  data() {
+    return {     
+      name: 'Vue 3',
+      loading: true
+    }
   }
 }
 </script>

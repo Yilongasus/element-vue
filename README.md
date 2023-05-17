@@ -1,5 +1,10 @@
 # element-vue
 
+開發版本🔎
+
+- Vue3 CLI
+- element-vue 0.1.0
+
 ## Project setup
 ```
 npm install
